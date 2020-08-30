@@ -4,6 +4,7 @@ cross = true;
 audiogo = new Audio('gameover.mp3');
 audio = new Audio('music.mp3');
 setTimeout(() => {
+    gameOver.innerHTML = "";
     audio.play()
 }, 5000);
 
